@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/text.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- 頁首  -->
+        <div class="nav">
+            <div class="navbar">
+                <div class="logo">
+                    <h1>Pizza</h1>
+                </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item">
+                        <a href="./index.html">特色</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="./index.html">主廚</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="./index.html">地圖</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="./cart.html"">商品</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="./login.html">登入</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="./signup.html">註冊</a>
+                    </li>
+                </ul>
+                <a href="#" class="showmenu">
+                    <input type="checkbox" name="menu-switcher" id="menu-switcher">
+                    <label for="menu-switcher" class="hamburger">
+                    <div class="hamburger-line"></div>
+                    </label>
+                </a>
+            </div>
+
+            <div class="content-text">
+                <h1>咬一口就無法忘懷的Pizza</h1><h2>好吃到爆的Pizza</h2>
+                <h3>七夕絕對無法錯過的好滋味 <br> <i class="fa fa-cutlery" aria-hidden="true"></i>Pizza<i class="fa fa-cutlery" aria-hidden="true"></i></h3>
+            </div>
+        </div>
+        <!-- 購物車 -->
+        <div class="section-cart">
+            <div class="cart-sidemenu">
+                <h3>線上訂購美食</h3>
+                <ul class="side-link">
+                    <li><a href="#">全部(23)</a></li>
+                    <li><a href="#">只愛吃薯條(18)</a></li>
+                    <li><a href="#">加熱就可食(1)</a></li>
+                    <li><a href="#">不敗漢堡系列(4)</a></li>
+                </ul>
+            </div>
+            
+            <div class="main-cart">
+                <div class="search-text">
+                    <div class="search">
+                        <input type="text" name="" id="">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                    <div class="cart-shop">
+                        <a href="#">結帳去</a>
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </div>
+                </div>
+                    
+                <div class="content-cart">
+                    <ul class="card-cart">
+                        <li class="cart-item">
+                            <img src="./img/product_2.png" alt="...">
+                            <div class="card-body">
+                                <h3>經典套餐</h3>
+                                <h4>Classic Humburger Package</h4>
+                                <hr>
+                                <h2>$120</h2>
+                            </div>
+                            <div class="cart-footer">
+                                <button class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>加入購物車</button>
+                            </div>
+                        </li>
+                        <li class="cart-item">
+                            <img src="./img/product_2.png" alt="...">
+                            <div class="card-body">
+                                <h3>英俊香腸</h3>
+                                <h4>Handsome Sausage</h4>
+                                <hr>
+                                <h2>$1024</h2>
+                            </div>
+                            <div class="cart-footer">
+                                <button class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>加入購物車</button>
+                            </div>
+                        </li>
+                        <li class="cart-item">
+                            <img src="./img/product_3.png" alt="...">
+                            <div class="card-body">
+                                <h3>兄弟</h3>
+                                <h4>Hamburg Brothers</h4>
+                                <hr>
+                                <h2>$792</h2>
+                            </div>
+                            <div class="cart-footer">
+                                <button class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>加入購物車</button>
+                            </div>
+                        </li>
+                        <li class="cart-item">
+                            <img src="./img/product_4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3>完美願望</h3>
+                                <h4>Dragon Ball Package</h4>
+                                <hr>
+                                <h2>$999,999</h2>
+                            </div>
+                            <div class="cart-footer">
+                                <button class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>加入購物車</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 頁尾 -->
+        <div class="footer">
+            <div class="footer-menu">
+                <div class="footer-item">
+                    <h2>關於 Pizza餐廳</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa voluptatibus dolore obcaecati impedit voluptatum voluptatem sed assumenda soluta iste esse.</p>
+                </div>
+                <div class="footer-item">
+                    <h2>聯絡方式</h2>
+                    <ul>
+                        <li>高雄市中正五路到底</li>
+                        <li>+886 886 886</li>
+                        <li>service@hexschool.com</li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-logo">
+                        <h6>Pizza餐廳</h6>
+                    </div>
+                    <ul class="link-menu">
+                        <li class="fb"></li>
+                        <li class="google-plus"></li>
+                        <li class="twitter"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top">
+                <a href="#"><img src="https://image.flaticon.com/icons/svg/626/626075.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
